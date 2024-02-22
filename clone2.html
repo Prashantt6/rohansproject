@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SP2</title>
+	<link rel="stylesheet" type="text/css" href="clone2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container1" id="car">
+<nav>
+	<img src="logoo.jpg" class="logoo">
+	<a href="#" class="btn1"> Test Drive</a>
+</nav>
+	<div class="contentt">
+		<h2>Ferrari </h2><Br>
+
+
+		<h1> MONZA SP2</h1><br><br>
+		<p><a href="form.html "target="_blank" class="exp"><font color="white"> Make a purchase</a></font></p>
+	</div><br><br>
+	<h3><font style="arial">Choose your colour</h3></font>
+<div class="colour-select">
+	<div id="black"></div>
+<div id="red"></div>
+	
+</div>	
+</div>
+</div>
+<script>
+	let blackBtn = document.getElementById("black");
+	
+	let redBtn = document.getElementById("red");
+	let car = document.getElementById("car");
+	blackBtn.onclick = function()
+	{
+car.style.backgroundImage = "url(spb.jpg)";
+	}
+	redBtn.onclick = function()
+	{
+car.style.backgroundImage = "url(spr.jpg)";
+	}
+</script>
+
+
+</body>
+</html>

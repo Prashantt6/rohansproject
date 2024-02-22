@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	 font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav {
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.logo img{
+	height: 120px;
+	
+}
+.logo{
+	padding-left: 0px;
+}
+p{
+	color: brown;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-2 h1 {
+	font color: f6f6ff ;
+}
+.btn
+{
+display: inline-block;
+background: #ff523b;
+color: fff;
+padding: 8px 30px;
+margin: 30px 0;
+border-radius: 30px;
+transition: background 0.5s;
+}
+.btn:hover{
+
+
+	
+	background: #563434;
+
+}
+.header .row{
+	margin-top: 70px;
+
+}
+.menu-icon > .line {
+    background-color: #292929;
+    height: 2px;
+    display: block;
+}
+.menu-icon > .line + .line {
+    margin-top: 8px;
+}
+
+}
+.containerr{
+	width: 1400px;
+	height: 800px;
+	background-image: url("C:/Users/Pallabi roy/Desktop/computer pj/images/red1.jpg");
+	background-size: cover;
+	background position: center;
+	background-repeat: no-repeat;
+	
+}
+.content {
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	
+	
+	color: #f1f1f1;
+	width: 100%;
+	
+  }
+  #myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+  }
+	
